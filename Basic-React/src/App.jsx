@@ -1,7 +1,15 @@
 import "./App.css";
 
+function Title() {
+  return <h1>I am the title</h1>;
+}   
+
 function App() {
-  return<button>Hello React</button>;
+  return (
+    <div>
+      <Title />
+    </div>
+  );
 }
 
 export default App;
