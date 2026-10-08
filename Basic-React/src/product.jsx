@@ -1,6 +1,6 @@
 import "./Product.css";
 
-function Product({}) {
+function Product({title , price , features}) {
     console.log(props.title);
     return(
         <div className="product">
